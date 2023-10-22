@@ -1,0 +1,111 @@
+.quem-somos {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.quemSomos-titulo {
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.quemSomos-titulo h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+}
+
+.missao-visao {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.oque-somos {
+    width: 350px;
+}
+
+.oque-somos h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+    text-transform: uppercase;
+
+    margin-bottom: 20px; 
+}
+
+.oque-somos p {
+    font-size: 16px;
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.missao {
+    display: flex;
+}
+
+.img-missao img {
+    height: 200px;
+    margin-left: 30px;
+    /* margin-top: -40px; */
+}
+
+.quem-somos-missao {
+    margin-left: 12px;
+    text-align: end;
+}
+
+.quem-somos-missao h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.quem-somos-missao p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.visao {
+    display: flex;
+    margin-top: 50px;
+}
+
+.quem-somos-visao {
+    margin-left: 12px;
+}
+
+.quem-somos-visao h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.quem-somos-visao p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.img-visao img {
+    height: 200px;
+    margin-top: 30px;
+    margin-right: 30px;
+}

@@ -1,0 +1,40 @@
+#cartao {
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all 1.5s;
+}
+
+#img_cartao-frente {
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+}
+
+#img_cartao-frente img{
+    width: 460px;
+}
+
+.frente {
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#img_cartao-verso img{
+    width: 460px;
+    backface-visibility: hidden;
+}
+
+#img_cartao-verso {
+    backface-visibility: hidden;
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+
+/* ************************************************************************************************************************************ */
