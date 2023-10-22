@@ -1,5 +1,5 @@
 .footer-copy {
-    height: 100px;
+    height: 200px;
     color: var(--branco);
     display: flex;
     justify-content: space-between;
@@ -12,7 +12,7 @@
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    height: 200px;
     width: 100%;
     position: absolute;
     z-index: -1; 
@@ -20,9 +20,24 @@
 
 .footer-copy .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+}
+
+.frase-final h1{
+    text-transform: uppercase;
+    line-height: 35px;
+    margin-top: 10px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .terms {
