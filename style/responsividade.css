@@ -1,0 +1,106 @@
+@media (max-width: 1000px) {
+    main .container {
+        flex-direction: column;
+    }
+
+    .banner {
+        display: inline-block;
+        width: 100vw;
+    }
+
+    .bg-cartao {
+        margin-top: 100px;
+    }
+
+
+
+    .quem-somos {
+        height: auto;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 150px;
+        margin-bottom: 20px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .missao,
+    .visao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oque-somos h1,
+    .oque-somos p,
+    .quem-somos-missao h1,
+    .quem-somos-missao p,
+    .quem-somos-visao h1,
+    .quem-somos-visao p {
+        text-align: center;
+        width: 300px;
+        margin-left: 50px;
+    }
+
+
+
+
+    .beneficios-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .beneficios-titulo {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .proposta-unica {
+        display: block;
+    }
+
+    .swiper-slide img {
+        height: 150px;
+    }
+
+
+
+    .publico-alvo {
+        font-family: 'Poppins', sans-serif;
+        height: 50%;
+    }
+    
+    .quem {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .empresa-colaborador {
+        display: block;
+    }
+
+    .colaborador {
+        margin-top: 40px;
+    }
+
+    .lista-colaborador h1 {
+        margin-left: 100px;
+    }
+
+    .lista-colaborador-item li {
+        margin-left: 100px;
+    }
+
+    .imgHomem {
+        margin-right: -300px;
+    }
+}

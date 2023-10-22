@@ -23,6 +23,7 @@ font-family: 'Poppins', sans-serif;
 @import url(style/animation.css);
 @import url(style/contato.css);
 @import url(style/footer.css);
+@import url(style/responsividade.css);
 
 :root {
     --branco: #ffffff;
